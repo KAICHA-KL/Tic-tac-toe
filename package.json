@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAICHA-KL/Tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAICHA-KL/Tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/KAICHA-KL/Tic-tac-toe#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "tailwindcss": "^4.0.9"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.0-beta.8"
+  }
+}
