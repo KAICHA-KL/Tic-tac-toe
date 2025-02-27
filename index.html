@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
-<body>
-  <div class="btn text-3xl  underline">
-    Hello world!
-  </div>
+    <body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-4xl mb-4">Tic-Tac-Toe</h1>
+        <div id="gameboard-container" class="mb-4"></div>
+        <div id="game-status" class="text-xl mb-4"></div>
+        <button id="reset-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Reset
+        </button>
 </body>
 </html>
